@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Model</title>
+
+    <style>
+        .container
+        {
+            height: 50vh;
+            width: 50vw;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+        .box
+        {
+            height: 55px;
+            width: 55px;
+            border: 1px solid red;
+            /* gap: 5px; */
+        }
+
+        table
+        {
+            background-color: aqua;
+
+        }
+
+        th,td
+        {
+            color: burlywood;
+            background-color: rgb(85, 145, 85);
+            border: 1px solid;
+            border-collapse: collapse;
+            border-radius: 2px;
+            
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <table>
+       <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>RollN0.</th>
+                    <th>Address</th>
+                </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>Saurabh</td>
+            <td>36</td>
+            <td>Banda</td>
+        </tr>
+       
+       </tbody>
+    </table>
+
+    
+
+    <script>
+
+        document.title="saurabhsinghpatel";
+        console.log(document.title);
+
+        console.log(document.body)
+        console.log(document)
+        console.log(window.document)
+
+
+      let a =  document.querySelector(".container")
+      
+
+    </script>
+</body>
+</html>

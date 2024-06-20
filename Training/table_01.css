@@ -1,0 +1,23 @@
+
+table
+{
+    border: 1px solid black;
+    text-align: center;
+    width: 50vw;
+    margin: auto;
+    /* background-color: aquamarine; */
+    border-collapse: collapse;
+    /* border-bottom: 2px solid #ddd; */
+    /* height: 40vh; */
+}
+
+
+tr,th,td{
+    border: 1px solid black;
+    /* border-top: 1px solid orange; */
+    /* background-color:  burlywood; */
+    color: blue;
+    margin: 5px;
+    padding: 10px;
+    /* border-bottom: 2px solid #ddd; */
+}

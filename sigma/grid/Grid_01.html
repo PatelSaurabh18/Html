@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 01</title>
+
+
+    <style>
+
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .container
+        {   
+            width: 90vw;
+            height: 90vh;
+            display: grid;
+            border: 2px solid red;
+            /* grid-template-rows:  100px  100px 100px ;  
+            grid-template-columns: [pahla] 120px [dusra] 120px  [teesra];  */
+            /* row-gap: 34px; */
+
+            /* grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr ; */
+
+
+
+            grid-template-rows:  repeat(3,80px);
+            grid-template-columns:  repeat(3,80px);
+
+
+
+            /* justify-items: center; */
+            /* when the grid takes all the space of a container then it 
+            aligns items horizontically*/
+
+
+
+            
+            /* align-items: center;  */
+            /* when the grid takes all the space of a container then it 
+            aligns items vertically */
+            
+            
+                    
+
+
+            justify-content: center;      
+               /* when the grid width  is smaller than the container then it is used
+               to horizontal align relative to the container  */
+
+
+
+
+            align-content: center;
+
+             /* when the grid height  is smaller than the container then it is used
+               to vertically align relative to the container */
+
+
+            /* place-content: center; */
+            /* place-items: center; */
+
+        }
+
+        .item
+        {
+            height: 55px;
+            width: 55px;
+            border: 2px solid black;
+            background-color: rgb(120, 195, 224);
+          
+        }
+
+        /* .item-4
+        {
+            grid-row: 1/2;
+            grid-column: 1/2;
+        } */
+
+
+
+        /* .item-2
+        {
+            align-self: start;
+            justify-self: end;
+        } */
+
+
+
+    </style>
+</head>
+<body>
+    
+
+    
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+
+    <script>
+
+        function butt()
+        {
+        document.write("Han Han tu hai button");
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <form>
+
+       <fieldset>
+
+        <legend>
+            HTML Form Dummy....
+        </legend>
+
+        <label for="user01">User-Name : </label>
+        <input type="text" name="user01" id="user01">
+
+        <br>
+        <br>
+
+        <label for="pass01"> password : </label>
+        <input type="password" name="pass01" id="pass01">
+
+        <br><br>
+
+        
+        <label for="radio01"> Male </label>
+        <input type="radio" name="find-gender" id="radio01" value="male" checked>
+      
+
+
+        <label for="radio02"> Female </label>
+        <input type="radio" name="find-gender" id="radio02" value="female">
+
+
+
+        <label for="radio03"> Other </label>
+        <input type="radio" name="find-gender" id="radio03" value="other">
+
+        <br><br><br>
+
+        <label >Which language you know : </label>
+
+        <label for="check01"> Hindi </label>
+        <input type="checkbox" name="check01" id="check01" value="other">
+
+        
+
+        <label for="check02"> English </label>
+        <input type="checkbox" name="check02" id="check02" value="other">
+
+
+        <label for="check03"> Other </label>
+        <input type="checkbox" name="check03" id="check03" value="other">
+
+
+        <br><br>
+
+        <label for="date01"> Choose date : </label>
+        <input type="date" name="date01" id="date01" value="Date">
+
+
+        <br><br>
+
+
+        <label for="select01">Choose your favourite dish : </label>
+        <select name="dishes" id="select01">
+        <option value="maggi">Maggi</option>
+        <option value="kurkure">Kurkure</option>
+        <option value="chips">Chips</option>
+        </select>
+
+        <br><br>
+
+        <button onclick="butt()">Main Hoon Button 1 </button>
+        <!-- <button ondblclick="butt()">Main Hoon Button 2 </button>
+        <button onmouseover="butt()">Main Hoon Button 3 </button>
+        <button onmouseenter="butt()">Main Hoon Button 4 </button>
+        <button onmouseleave="butt()">Main Hoon Button 5 </button>
+        <button oncontextmenu="butt()">Main Hoon Button 6 </button> -->
+
+        <br><br>
+
+        <!-- <label for="text01"> Write About Yourself </label> -->
+
+        <textarea name="text01" id="text01" cols="90" rows="10" placeholder="Enter text here..."></textarea>
+
+
+        <br><br>
+
+        <label for="file01"> Upload : </label>
+        <input type="file" name="file01" id="file01">
+        
+        <input type="submit" name="sub01" value="Submit">
+
+       </fieldset>
+    </form>
+</body>
+
+</html>

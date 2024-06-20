@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-TEXT</title>
+
+    <style>
+        div{
+            border: 2px solid gray;
+            margin: 30px 20px;
+            padding: 25px;
+        }
+
+        h1{
+            color: rgb(18, 88, 0);
+            text-align: center;
+            /* color: rgb(195, 56, 56); */
+            /* text-align-last: justify; */
+            /* direction: rtl;
+            unicode-bidi: bidi-override; */
+
+            text-shadow: 2px 2px 5px red;
+        }
+
+        p
+        {
+            text-indent: 40px;
+            text-align: justify;
+            letter-spacing: 3px;
+            word-spacing: 3px;
+            text-align-last: center;
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(35, 9, 179);
+        }
+
+        #first
+        {
+            text-decoration-line:overline ;
+            text-decoration-color: chartreuse;
+            text-decoration-style: double;
+
+            text-transform: capitalize;
+        }
+
+        #second
+        {
+            text-decoration-line:line-through ;
+            text-decoration-color: rgba(89, 93, 145, 0.416);
+            text-decoration-thickness: 10px;
+            text-decoration-style: wavy;
+
+            text-transform: lowercase;
+
+
+        }
+
+        #third
+        {
+            text-decoration-line:underline overline ;
+            line-height: 30px;
+            text-decoration-color: rgb(116, 20, 78);
+
+            text-transform:uppercase;
+            /* white-space:nowrap; */
+
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div>
+        <h1>
+            TEXT FORMATTING
+        </h1>
+    
+        <p>
+            This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties. The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored <a href="https://www.google.com" target="_blank"> "Try it Yourself "</a>link.
+        </p>
+    </div>
+
+
+
+    <p id="first"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <p id="second"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum corporis nihil, sint nostrum officiis dignissimos perspiciatis nobis?</p>
+
+    
+    <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, iure id adipisci ipsa cupiditate officia quas assumenda, dicta dignissimos, nobis nisi quos sapiente!</p>
+
+
+</body>
+</html>

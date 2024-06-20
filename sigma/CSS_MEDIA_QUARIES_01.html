@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-MediaQuery</title>
+
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        /*   only screen and  */
+
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .box {
+            width: 344px;
+            height: 344px;
+            background-color: steelblue;
+            padding: 3px;
+            margin: 3px;
+
+        }
+
+        /* @media (max-width:455px) {
+            body {
+                background-color: yellow;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+
+        }
+
+        @media (min-width:455px) {
+            body {
+                background-color: red;
+            }
+
+            .container {
+                flex-direction: row;
+            }
+
+
+        } */
+
+
+
+        @media screen and (min-width: 601px) and (max-width: 1199px) {
+
+            body {
+                background-color: yellow;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        Lorem ipsum dolor sit amet.
+    </div>
+
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

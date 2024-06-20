@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML </title>
+
+
+    <style>
+
+        div
+        {
+            background-color: rgb(44, 83, 83);
+            color: rgb(2, 2, 38);
+            border: 5px solid black;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+
+        legend
+        {
+            color: rgb(43, 4, 1);
+            font-size: x-large;
+            font-family: fantasy;
+        }
+        label
+        {
+            color: darkgoldenrod;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            font-style: inherit;
+        }
+        input
+        {
+            border: 2px solid rgb(23, 9, 9);
+        }
+
+      
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <form autocomplete="on">
+
+
+            <fieldset id="first">
+                <legend>
+                    Personal Details
+                </legend>
+    
+                <label for="name1"> Name : </label>
+                <input type="text" id="name1" name="name1" value="Saurabh" required autofocus>
+                <br>
+                <br>
+    
+                <label for="pass"> Password : </label>
+                <input type="password" id="pass" name="pass" placeholder="write here password..." required>
+                <br>
+                <br>
+    
+                <label for="mail"> E-mail : </label>
+                <input type="email" name="mail" id="mail">
+                <br>
+                <br>
+    
+    
+                <br>
+    
+                <label for="gem"> Gender : </label>
+    
+                <input type="radio" name="gender" id="gen">
+                <label for="gen"> Male </label>
+    
+                <input type="radio" name="gender" id="gen">
+                <label for="gen"> Female </label>
+    
+                <br><br>
+    
+                <label for="con"> Contacts : </label>
+                <input type="text" name="contact" id="con">
+    
+                <br><br>
+    
+            </fieldset>
+            <br><br>
+            <fieldset id="second">
+                <legend>
+                    Educational Qualification
+                </legend>
+    
+                <label for="deg"> Degree : </label>
+                <select name="degree" id="deg">
+                    <option value="BCA"> BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="BSC">BSC</option>
+                    <option value="BA">BA</option>
+                </select>
+    
+                <br><br>
+    
+                <label for="engi"> Engineering : </label>
+                <select name="engineeer" id="engi">
+                    <option value="CS">CS</option>
+                    <option value="Machanical">Machanical</option>
+                    <option value="Electrical">Elactrical</option>
+                    <option value="Civil">Civil</option>
+                </select>
+    
+                <br><br>
+    
+                <label for="hobby"> Hobbies : </label>
+    
+    
+                <input type="checkbox" name="hobby" id="hobby" >
+                <label for="hobby"> Playing Chess</label>
+    
+    
+    
+                <input type="checkbox" name="hobby" id="hobby" >
+                <label for="hobby"> Reading Books </label>
+    
+                <br><br>
+    
+                <label for="add"> Address : </label>
+                <br>
+                <textarea name="address" id="add" cols="50" rows="10"></textarea>
+                <br></br>
+    
+    
+    
+                <label for="file"> Chose File to upload :     </label>
+                <input type="file" name="file" id="file" multiple>
+                <br><br>
+    
+                <input type="submit" value="submit">
+    
+    
+    
+            </fieldset>
+    
+    
+    
+    
+    
+    
+        </form>
+    </div>
+
+</body>
+
+</html>

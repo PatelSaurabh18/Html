@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIO</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="../CSS/1.css"> -->
+
+    <!-- <link rel="stylesheet" href="../CSS/style.css"> -->
+
+    <script src="../JS/script.js"></script>
+
+    <style>
+        section {
+            border: 2px solid black;
+            padding: 10px;
+            background-color: rgb(106, 192, 192);
+            border-style: double;
+        }
+
+        legend {
+            color: brown;
+            font-size: larger;
+            font-weight: 400;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #con{
+            color:rgb(98, 0, 219);
+        }
+
+        #geog{
+            color: blue;
+        }
+
+        #about{
+            color:rgb(18, 18, 234)
+        }
+
+        #sub{
+            background-color: rgb(255, 0, 0);
+            color:rgb(7, 234, 49);
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #res{
+            background-color:rgb(255, 0, 0);
+            color: rgb(0, 253, 67);
+        }
+
+    </style>
+
+
+
+
+</head>
+
+</body>
+
+
+<!-- <h1> Hi my name is saurabh.</h1> -->
+
+
+<section>
+
+    <form>
+
+        <h1 style="position: relative; text-align: center;">Please complate our survey</h1>
+
+        <fieldset id="con">
+            <legend> contact information...</legend>
+
+            <label for="mail">Email-address : </label>
+            <input type="email" id="mail" name="mail" placeholder="Give your email here..."><br><br>
+
+            <label for="fname">First name :</label>
+            <input type="text" id="fname" name="fname"
+                placeholder="Write your first-name here..."><br><br>
+
+            <label for="lname">Last name :</label>
+            <input type="text"  id="lname" name="lname"
+                placeholder="Write your last-name here..."><br><br>
+
+
+
+        </fieldset>
+        <br><br>
+        <fieldset id="geog">
+
+            <legend>
+                Geographic information...
+
+
+            </legend>
+
+            <label for="geo">State : </label>
+            <input type="text" id="geo" name="geo"><br><br>
+
+            <label for="zip"> Zip-Code : </label>
+            <input type="text" id="zip" name="zip"><br><br>
+
+
+
+
+
+        </fieldset>
+
+        <br><br>
+        <fieldset id="about">
+            <legend>How did you here about this ? </legend>
+
+
+            <!-- <label> </label> -->
+
+
+            <label for="rad01">Web Search </label>
+            <input type="radio" id="rad01" name="rad01"><br>
+
+            <label for="rad02"> Facebook : </label>
+            <input type="radio" id="rad02" name="rad01"><br>
+
+            <label for="rad03"> Twitter : </label>
+            <input type="radio" id="rad03" name="rad01"><br>
+
+            <label for="rad04"> Email massage : </label>
+            <input type="radio" id="rad04" name="rad01"><br>
+
+        </fieldset>
+
+        <h1>Thank you for our survey!</h1>
+
+
+        <input type="submit" value="Submit" id="sub">
+        <input type="reset" value="Reset" id="res">
+
+    </form>
+
+
+
+</section>
+
+
+<body>
+
+
+</html>

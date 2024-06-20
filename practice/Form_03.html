@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 03</title>
+
+   <style>
+    .cen 
+    {
+        align-content: center;
+    }
+
+   </style>
+</head>
+
+<body>
+
+    <h1>
+        Complex Form
+    </h1>
+
+    <form>
+
+
+        <fieldset class="cen">
+
+            <legend> Personal info. </legend>
+
+
+            <label for="name01"> Name: </label>
+            <input type="text" name="" id="name01"><br><br>
+
+
+            <label for="email01">E-mail:</label>
+            <input type="email" name="email01" id="email01"><br><br>
+
+
+            <label for="no01">Phone No.:</label>
+            <input type="tel" name="no01" id="no01"><br><br>
+
+            <label for="date01">Date Of Birth : </label>
+            <input type="date" name="date01" id="date01"><br><br>
+
+            <label for="gender01">Gender : </label><br>
+
+            <input type="radio" name="gender01" id="gender01">
+            <label for="gender01">Male : </label>
+
+
+
+            <input type="radio" name="gender01" id="gender01">
+            <label for="gender01">Female : </label><br><br>
+
+            <label for="country01"> Country:</label>
+            <select name="country" id="country01">
+                <option value="USA">USA</option>
+                <option value="INDIA">INDIA</option>
+                <option value="CHINA">CHINA</option>
+            </select>
+
+
+
+        </fieldset class="cen">
+
+        <fieldset>
+            <legend>Address Information...</legend>
+
+            <label for="street"> Street :</label>
+            <input type="text" name="street" id="street"><br><br>
+
+            
+            <label for="city"> City: </label>
+            <input type="text" name="city" id="city"><br><br>
+
+            
+            <label for="state"> State :</label>
+            <input type="text" name="state" id="state"><br><br>
+
+              
+            <label for="zip-code"> Zip-Code:</label>
+            <input type="text" name="zip-code" id="zip-code"><br><br>
+
+        </fieldset>
+
+
+        <fieldset  class="cen">
+
+            <legend>Other Information..</legend>
+
+            <label for="text"> Comments: </label><br>
+            <textarea name="text01" id="text01" cols="30" rows="10" placeholder="write your comment here..."></textarea><br>
+
+            <label for="terms01"> I agree to the term and service: </label>
+            <input type="checkbox" name="terms01" id="terms01">
+
+        </fieldset>
+
+        <input type="submit" name="submit01" id="submit01" value="Submit">
+        <input type="reset" name="reset01" id="reset01" value="reset">
+
+
+    </form>
+
+</body>
+
+</html>

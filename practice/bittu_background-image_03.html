@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The HTML picture Element </title>
+
+   <style>
+
+    /* for collapse write border-collapse:collapse; */
+
+    table,th, td {
+        /* border: 1px solid black; */
+        border-collapse: collapse;
+        background-color: #96D4D4;
+        /* border-radius: 10px; */
+        border-style: dotted;
+        border-color:blueviolet;
+    }
+    </style>
+<!--
+    
+The following values are allowed:
+
+dotted     
+dashed     
+solid     
+double     
+groove     
+ridge     
+inset     
+outset     
+none     
+hidden     
+ -->
+
+</head>
+<body>
+    
+    
+<picture>
+<!--     
+    <source media="(min-width: 500px)"
+scrset="https://st.depositphotos.com/1049680/2265/i/600/depositphotos_22652109-stock-photo-young-woman-using-laptop.jpg">
+
+<source media="(min-width: 500px)"
+scrset="https://st4.depositphotos.com/12985848/19675/i/600/depositphotos_196755098-stock-photo-closeup-view-laptop-blank-screen.jpg">
+
+
+<source media="(min-width: 500px)"
+scrset="https://st4.depositphotos.com/1008939/22811/i/600/depositphotos_228118584-stock-photo-beautiful-girl-exult.jpg">
+ -->
+
+
+
+<img src="https://st.depositphotos.com/1829243/4065/i/600/depositphotos_40657665-stock-photo-dog-in-glasses.jpg"
+style="width:auto;">
+
+</picture>
+
+<p> Resize the browser to see different versions of the picture
+     loading at different viewport sizes.
+    The browser looks for the first source 
+    element where the media query matches 
+    the user's current viewport width,
+    and fetches the image specified in the
+     srcset attribute.</p>
+    
+    <p>The img element 
+    is required as the last child tag of the 
+    picture declaration block.
+    The img element is used to provide 
+    backward compatibility for browsers that
+     do not support the picture element, 
+     or if none of the source tags matched.
+    </p>
+
+
+    <table style="width: 100%;">
+        
+            <tr>
+                <th style="width:40%"> Company</th>
+                <th style="width:40%"> Contact</th>
+                <th style="width:40%"> Country</th>
+            </tr>
+            
+            <tr style="height:30px">
+                <td> apple </td>
+                <td> 9559207456 </td>
+                <td> United states of America </td>
+            </tr>
+
+            <tr style="height:30px">
+                <td> Flipcart </td>
+                <td> 9336531804 </td>
+                <td> India </td>
+            </tr>
+
+            <tr style="height:30px">
+                <td> Huewai </td>
+                <td> 9125425477 </td>
+                <td> China </td>
+            </tr>
+        
+
+        
+    </table>
+
+<br><br><br><br><br><br><br>
+    
+   
+
+</body>
+</html>

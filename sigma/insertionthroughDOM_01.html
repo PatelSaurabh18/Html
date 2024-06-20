@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<!-- 
+    <div class="container" style="color: rgb(1, 15, 15);">
+        Hey i am a CONTAINER
+        <div class="box" data-createdBy="Saurabh">
+            Hey I am a BOX
+        </div>
+    </div> -->
+
+
+
+
+    <button onclick="myFunction()">Move</button>
+    <p>Click "Move" to insert the red span after the header.</p>
+
+    <span id="mySpan" style="color:red">My span</span>
+    <h2 id="myH2">My Header</h2>
+
+
+
+    <script>
+        // let div=document.createElement("div");
+        // div.innerHTML="I have been inserted by <b> SAURABH</b>";
+
+        // div.setAttribute("class","created");
+        // document.querySelector(".container").replaceWith("Harry");
+        //  document.querySelector(".container").append("Patel");
+
+        // let cont = document.querySelector(".container")
+        // cont.insertAdjacentHTML("beforeEnd", "<b>Here i am under water</b>")
+
+        // cont.insertAdjacentText("afterend", "hello , myself Saurabh Singhania")
+
+        // cont.insertAdjacentElement("beforebegin","<div> here we go again! </div>")
+
+        // const h1 = document.querySelector(".container");
+        // const h2 = document.querySelector(".box");
+        // h2.insertAdjacentElement("afterend", h1);
+
+
+
+        function myFunction() {
+            const span = document.getElementById("mySpan");
+            const h2 = document.getElementById("myH2");
+            h2.insertAdjacentElement("afterend", span);
+        }
+
+
+    </script>
+
+</body>
+
+</html>
